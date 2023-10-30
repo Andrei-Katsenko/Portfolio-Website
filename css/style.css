@@ -37,6 +37,10 @@ body {
   margin: 0 auto;
 }
 
+.wrapper {
+  max-width: 1600px;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -66,7 +70,7 @@ body {
 .navbar a {
   position: relative;
   font-size: 1.7rem;
-  color: var(--white-color);
+  color: var(--text-color);
   font-weight: 500;
   margin-right: 3.5rem;
 }
@@ -91,7 +95,7 @@ body {
   bottom: -6px;
   width: 100%;
   height: 0.2rem;
-  background-color: var(--white-color);
+  background-color: var(--text-color);
 }
 
 #darkMode-icon {
