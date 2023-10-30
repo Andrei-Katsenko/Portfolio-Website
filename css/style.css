@@ -47,7 +47,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 80vw;
+  width: 100%;
   padding: 2rem 7%;
   background: transparent;
   display: flex;
@@ -689,6 +689,9 @@ span {
     font-size: 2.6rem;
     color: var(--text-color);
     margin-bottom: 0.1rem;
+  }
+  .header {
+    width: 90vw;
   }
   .navbar {
     position: absolute;
