@@ -39,7 +39,7 @@ body {
 
 .wrapper {
   max-width: 1600px;
-  margin: 0 auto;
+  margin: 0 a;
 }
 
 .header {
@@ -101,7 +101,7 @@ body {
 
 #darkMode-icon {
   font-size: 2.4rem;
-  color: var(--white-color);
+  color: var(--text-color);
   cursor: pointer;
 }
 
