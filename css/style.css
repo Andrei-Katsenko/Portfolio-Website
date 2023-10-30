@@ -285,11 +285,12 @@ section {
 
 .home-img img {
   position: absolute;
-  /* top: 103px; */
-  bottom: 0;
+  top: 10%;
+  /* bottom: 0; */
   right: 0;
-  width: 45%;
+  width: 80%;
   pointer-events: none;
+  z-index: 2;
 }
 
 span {
